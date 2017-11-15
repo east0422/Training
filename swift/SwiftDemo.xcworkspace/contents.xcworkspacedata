@@ -4,4 +4,7 @@
    <FileRef
       location = "group:UITableViewDemo/UITableViewDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:UIScrollViewDemo/UIScrollViewDemo.xcodeproj">
+   </FileRef>
 </Workspace>
