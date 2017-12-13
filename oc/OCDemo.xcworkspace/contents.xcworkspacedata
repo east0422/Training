@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CustomCell/CustomCell.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:UITableViewDemo/UITableViewDemo.xcodeproj">
    </FileRef>
    <FileRef
