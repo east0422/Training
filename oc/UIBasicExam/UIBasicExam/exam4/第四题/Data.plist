@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>titileName</key>
+		<string>程序员泡妞技巧</string>
+		<key>imageName</key>
+		<string>chengxuyuan</string>
+	</dict>
+	<dict>
+		<key>titileName</key>
+		<string>成熟</string>
+		<key>imageName</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>titileName</key>
+		<string>卡哇伊</string>
+		<key>imageName</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>titileName</key>
+		<string>清纯</string>
+		<key>imageName</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>titileName</key>
+		<string>性感</string>
+		<key>imageName</key>
+		<string>4</string>
+	</dict>
+</array>
+</plist>
