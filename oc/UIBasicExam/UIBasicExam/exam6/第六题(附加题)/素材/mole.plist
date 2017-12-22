@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>{{30, 200}, {56, 79}}</string>
+	<string>{{132, 200}, {56, 79}}</string>
+	<string>{{234, 200}, {56, 79}}</string>
+	<string>{{30, 287}, {56, 79}}</string>
+	<string>{{132, 287}, {56, 79}}</string>
+	<string>{{234, 287}, {56, 79}}</string>
+	<string>{{30, 374}, {56, 79}}</string>
+	<string>{{132, 374}, {56, 79}}</string>
+	<string>{{234, 374}, {56, 79}}</string>
+</array>
+</plist>
