@@ -16,4 +16,7 @@
    <FileRef
       location = "group:UIPickerViewDemo/UIPickerViewDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:UITextFieldDemo/UITextFieldDemo.xcodeproj">
+   </FileRef>
 </Workspace>
