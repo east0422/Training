@@ -25,4 +25,7 @@
    <FileRef
       location = "group:Quartz2DDemo/Quartz2DDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:CALayerDemo/CALayerDemo.xcodeproj">
+   </FileRef>
 </Workspace>
