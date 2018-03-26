@@ -28,4 +28,7 @@
    <FileRef
       location = "group:CALayerDemo/CALayerDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:AnimationDemo/AnimationDemo.xcodeproj">
+   </FileRef>
 </Workspace>
