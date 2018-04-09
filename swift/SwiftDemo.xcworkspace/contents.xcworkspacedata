@@ -34,4 +34,7 @@
    <FileRef
       location = "group:ThreadExam/ThreadExam.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:UIAdvancedExam/UIAdvancedExam.xcodeproj">
+   </FileRef>
 </Workspace>
