@@ -31,4 +31,7 @@
    <FileRef
       location = "group:AnimationDemo/AnimationDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ThreadExam/ThreadExam.xcodeproj">
+   </FileRef>
 </Workspace>
