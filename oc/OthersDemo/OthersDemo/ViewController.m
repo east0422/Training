@@ -10,6 +10,7 @@
 #import "PersonViewController.h"
 #import "NSURLVerifyViewController.h"
 #import "AnimalViewController.h"
+#import "CusKVOViewController.h"
 
 @interface ViewController ()
 
@@ -29,11 +30,18 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [self testAnimalVC];
+    [self testCustomKVO];
+    
+//    [self testAnimalVC];
     
 //    [self testNSURLVerifyVC];
     
 //    [self testPersonVC];
+}
+
+- (void)testCustomKVO {
+    CusKVOViewController *cusKVOVC = [[CusKVOViewController alloc] init];
+    [self presentViewController:cusKVOVC animated:YES completion:nil];
 }
 
 // 知识点，
