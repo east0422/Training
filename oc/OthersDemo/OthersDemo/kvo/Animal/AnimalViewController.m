@@ -25,6 +25,8 @@
     // 查看的话在此加个断点，第一次到这里的时候Command + Q停止当前任务，再重新打开再调试就可看到_animal的isa的改变
     [_animal addObserver:self forKeyPath:@"name" options:(NSKeyValueObservingOptionNew) context:nil];
     _animal.name = @"小花猫";
+    // 观察成员变量更改不会调用observeValueForKeyPath方法
+    [_animal addObserver:self forKeyPath:@"age" options:(NSKeyValueObservingOptionNew) context:nil];
     // 成员变量
     _animal->age = 2;
     

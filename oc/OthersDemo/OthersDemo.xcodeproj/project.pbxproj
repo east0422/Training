@@ -20,6 +20,9 @@
 		45C3A3AB20D22EAA0040E3FD /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C3A3AA20D22EAA0040E3FD /* PersonViewController.m */; };
 		45C3A3B320D24E030040E3FD /* NSURL+Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C3A3B220D24E030040E3FD /* NSURL+Verify.m */; };
 		45C3A3B620D24F6B0040E3FD /* NSURLVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C3A3B520D24F6B0040E3FD /* NSURLVerifyViewController.m */; };
+		45DDAE7120D35A8900E96C54 /* NSObject+kvo.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DDAE7020D35A8900E96C54 /* NSObject+kvo.m */; };
+		45DDAE7420D373DB00E96C54 /* CusPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DDAE7320D373DB00E96C54 /* CusPerson.m */; };
+		45DDAE7A20D3758300E96C54 /* CusKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DDAE7920D3758300E96C54 /* CusKVOViewController.m */; };
 		45F5B3DB20D2747D00287D56 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5B3DA20D2747D00287D56 /* Animal.m */; };
 		45F5B3DE20D274B500287D56 /* AnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F5B3DD20D274B500287D56 /* AnimalViewController.m */; };
 /* End PBXBuildFile section */
@@ -67,6 +70,12 @@
 		45C3A3B220D24E030040E3FD /* NSURL+Verify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Verify.m"; sourceTree = "<group>"; };
 		45C3A3B420D24F6B0040E3FD /* NSURLVerifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLVerifyViewController.h; sourceTree = "<group>"; };
 		45C3A3B520D24F6B0040E3FD /* NSURLVerifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLVerifyViewController.m; sourceTree = "<group>"; };
+		45DDAE6F20D35A8900E96C54 /* NSObject+kvo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+kvo.h"; sourceTree = "<group>"; };
+		45DDAE7020D35A8900E96C54 /* NSObject+kvo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+kvo.m"; sourceTree = "<group>"; };
+		45DDAE7220D373DB00E96C54 /* CusPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CusPerson.h; sourceTree = "<group>"; };
+		45DDAE7320D373DB00E96C54 /* CusPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CusPerson.m; sourceTree = "<group>"; };
+		45DDAE7820D3758300E96C54 /* CusKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CusKVOViewController.h; sourceTree = "<group>"; };
+		45DDAE7920D3758300E96C54 /* CusKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CusKVOViewController.m; sourceTree = "<group>"; };
 		45F5B3D920D2747D00287D56 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		45F5B3DA20D2747D00287D56 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		45F5B3DC20D274B500287D56 /* AnimalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalViewController.h; sourceTree = "<group>"; };
@@ -186,9 +195,23 @@
 			path = NSURLVerify;
 			sourceTree = "<group>";
 		};
+		45DDAE6E20D35A3E00E96C54 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				45DDAE6F20D35A8900E96C54 /* NSObject+kvo.h */,
+				45DDAE7020D35A8900E96C54 /* NSObject+kvo.m */,
+				45DDAE7220D373DB00E96C54 /* CusPerson.h */,
+				45DDAE7320D373DB00E96C54 /* CusPerson.m */,
+				45DDAE7820D3758300E96C54 /* CusKVOViewController.h */,
+				45DDAE7920D3758300E96C54 /* CusKVOViewController.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		45F5B3D720D2742E00287D56 /* kvo */ = {
 			isa = PBXGroup;
 			children = (
+				45DDAE6E20D35A3E00E96C54 /* Custom */,
 				45F5B3D820D2744900287D56 /* Animal */,
 			);
 			path = kvo;
@@ -335,15 +358,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DDAE7420D373DB00E96C54 /* CusPerson.m in Sources */,
 				4547918820D0BAA8003BB116 /* ViewController.m in Sources */,
 				4547918520D0BAA8003BB116 /* AppDelegate.m in Sources */,
 				45F5B3DE20D274B500287D56 /* AnimalViewController.m in Sources */,
 				45C3A3B320D24E030040E3FD /* NSURL+Verify.m in Sources */,
 				454791BB20D0BB7C003BB116 /* Person.m in Sources */,
 				4547919620D0BAAC003BB116 /* main.m in Sources */,
+				45DDAE7A20D3758300E96C54 /* CusKVOViewController.m in Sources */,
 				4547918E20D0BAA8003BB116 /* OthersDemo.xcdatamodeld in Sources */,
 				45F5B3DB20D2747D00287D56 /* Animal.m in Sources */,
 				45C3A3B620D24F6B0040E3FD /* NSURLVerifyViewController.m in Sources */,
+				45DDAE7120D35A8900E96C54 /* NSObject+kvo.m in Sources */,
 				45C3A3AB20D22EAA0040E3FD /* PersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
