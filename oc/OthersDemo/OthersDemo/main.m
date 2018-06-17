@@ -11,6 +11,10 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+//        NSLog(@"aaaaaaa");
+        int aa = UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        // 不会输出到控制台，上面UIApplicationMain会进入runloop
+//        NSLog(@"bbbbbbb");
+        return aa;
     }
 }
