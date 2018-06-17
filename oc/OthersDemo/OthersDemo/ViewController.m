@@ -11,6 +11,7 @@
 #import "NSURLVerifyViewController.h"
 #import "AnimalViewController.h"
 #import "CusKVOViewController.h"
+#import "Runloop1ViewController.h"
 
 @interface ViewController ()
 
@@ -30,13 +31,20 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [self testCustomKVO];
+    [self testRunloop1];
+    
+//    [self testCustomKVO];
     
 //    [self testAnimalVC];
     
 //    [self testNSURLVerifyVC];
     
 //    [self testPersonVC];
+}
+
+- (void)testRunloop1 {
+    Runloop1ViewController *runloop1VC = [[Runloop1ViewController alloc] init];
+    [self presentViewController:runloop1VC animated:YES completion:nil];
 }
 
 - (void)testCustomKVO {

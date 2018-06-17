@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450A8B0D20D69E8000136821 /* Runloop1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450A8B0C20D69E8000136821 /* Runloop1ViewController.m */; };
 		4547918520D0BAA8003BB116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547918420D0BAA8003BB116 /* AppDelegate.m */; };
 		4547918820D0BAA8003BB116 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547918720D0BAA8003BB116 /* ViewController.m */; };
 		4547918B20D0BAA8003BB116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4547918920D0BAA8003BB116 /* Main.storyboard */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450A8B0B20D69E8000136821 /* Runloop1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runloop1ViewController.h; sourceTree = "<group>"; };
+		450A8B0C20D69E8000136821 /* Runloop1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runloop1ViewController.m; sourceTree = "<group>"; };
 		4547918020D0BAA8003BB116 /* OthersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OthersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4547918320D0BAA8003BB116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4547918420D0BAA8003BB116 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450A8B0A20D6159E00136821 /* runloop */ = {
+			isa = PBXGroup;
+			children = (
+				450A8B0B20D69E8000136821 /* Runloop1ViewController.h */,
+				450A8B0C20D69E8000136821 /* Runloop1ViewController.m */,
+			);
+			path = runloop;
+			sourceTree = "<group>";
+		};
 		4547917720D0BAA8003BB116 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +142,7 @@
 		4547918220D0BAA8003BB116 /* OthersDemo */ = {
 			isa = PBXGroup;
 			children = (
+				450A8B0A20D6159E00136821 /* runloop */,
 				45F5B3D720D2742E00287D56 /* kvo */,
 				454791B820D0BB61003BB116 /* runtime */,
 				4547918320D0BAA8003BB116 /* AppDelegate.h */,
@@ -366,6 +379,7 @@
 				454791BB20D0BB7C003BB116 /* Person.m in Sources */,
 				4547919620D0BAAC003BB116 /* main.m in Sources */,
 				45DDAE7A20D3758300E96C54 /* CusKVOViewController.m in Sources */,
+				450A8B0D20D69E8000136821 /* Runloop1ViewController.m in Sources */,
 				4547918E20D0BAA8003BB116 /* OthersDemo.xcdatamodeld in Sources */,
 				45F5B3DB20D2747D00287D56 /* Animal.m in Sources */,
 				45C3A3B620D24F6B0040E3FD /* NSURLVerifyViewController.m in Sources */,
